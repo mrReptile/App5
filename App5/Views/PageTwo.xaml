@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="App5.Views.PageTwo"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="Pagina 2"
+                VerticalOptions="CenterAndExpand" />
+            <Button Command="{Binding GoToHome}" Text="Go to Home" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
